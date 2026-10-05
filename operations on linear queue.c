@@ -34,7 +34,7 @@ void Display(){
         printf("The queue is empty Underflow \n");
         return;
     }
-    for(int i=front;i<rear;i++){
+    for(int i=front;i=<rear;i++){
         printf("%d",queue[i]);
     }
 }
